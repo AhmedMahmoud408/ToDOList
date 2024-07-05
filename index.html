@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/all.min.css" />
+    <link rel="stylesheet" href="./style/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>ToDOList</title>
+  </head>
+  <body>
+    <div class="container my-3">
+      <h2 class="fw-bolder text-white">ToDo List</h2>
+      <div class="my-5 d-flex align-items-center justify-content-between w-75 ">
+        <input type="text" class="w-100 form-control" placeholder="Enter your todos here">
+        <button class="btn btn-warning ms-5 " id="addTask"> Add </button>
+      </div>
+      <table class="table  text-center w-100">
+        <thead>
+          <tr >
+            <th scope="col">#</th>
+            <th scope="col">Task Title</th>
+            <th scope="col">Mark Completed</th>
+            <th scope="col">Delete</th>
+          </tr>
+        </thead>
+        <tbody id="todos">
+           
+        </tbody>
+      </table>
+    </div>
+
+<footer class="text-center position-fixed bottom-0 end-50 fs-6 text-warning">
+    <h6>Created by Ahmed Abdelaal</h6>
+</footer>
+
+
+    <script src="./main.js"></script>
+  </body>
+</html>
